@@ -43,22 +43,6 @@ Admins can view live booking dashboards, analyze utilization trends, and forecas
 | Deployment  | Vercel (React), Render (Flask)         |
 
 
-## 📁 Folder Structure
-
-
-bookmind-scheduling-ai-main/
-│
-├── client/                   # React frontend
-│   ├── pages/                # Booking, Dashboard
-│   ├── components/           # SeatMap, Prediction UI
-│   └── services/api.js       # Axios API calls
-│
-├── backend/                 # Flask backend
-│   ├── app.py                # Main Flask app
-│   ├── routes/               # API routes
-│   ├── ml/                   # ML model + training code
-│   └── utils/                # Firebase utils, DB service
-
 
 ## ⚙️ Getting Started
 
