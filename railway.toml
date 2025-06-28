@@ -1,0 +1,5 @@
+[build]
+builder = "nixpacks"
+
+[build.nixpacks]
+phases.setup.commands = ["apt-get update && apt-get install -y python3-pip"]
