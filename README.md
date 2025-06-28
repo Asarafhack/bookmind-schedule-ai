@@ -6,8 +6,6 @@ SmartPredict is a full-stack scheduling platform for hybrid workplaces. Built us
 
 Admins can view live booking dashboards, analyze utilization trends, and forecast future traffic using an ML model trained on historical data.
 
----
-
 ## 🚀 Features
 
 ### 👨‍💼 Employee Panel
@@ -32,7 +30,6 @@ Admins can view live booking dashboards, analyze utilization trends, and forecas
   * Past bookings
   * Holidays / external data (optional)
 
----
 
 ## 🧪 Tech Stack
 
@@ -45,11 +42,10 @@ Admins can view live booking dashboards, analyze utilization trends, and forecas
 | Auth        | Firebase Authentication (Email/Google) |
 | Deployment  | Vercel (React), Render (Flask)         |
 
----
 
 ## 📁 Folder Structure
 
-```
+
 bookmind-scheduling-ai-main/
 │
 ├── client/                   # React frontend
@@ -62,9 +58,7 @@ bookmind-scheduling-ai-main/
 │   ├── routes/               # API routes
 │   ├── ml/                   # ML model + training code
 │   └── utils/                # Firebase utils, DB service
-```
 
----
 
 ## ⚙️ Getting Started
 
@@ -92,7 +86,6 @@ npm install
 npm run dev
 ```
 
----
 
 ## 🧠 AI Model
 
@@ -105,7 +98,6 @@ The ML model predicts hourly seat demand based on:
 
 Model is trained in `ml/train.py` and served via `/predict` API.
 
----
 
 ## 🌐 Deployment
 
@@ -113,7 +105,6 @@ Model is trained in `ml/train.py` and served via `/predict` API.
 * **Backend API:** [Render](https://render.com)
 * **Database & Auth:** Firebase (Free Tier)
 
----
 
 ## 📌 Challenges Overcome
 
@@ -122,7 +113,6 @@ Model is trained in `ml/train.py` and served via `/predict` API.
 * ML model integration in REST API
 * Real-time sync between Firestore and seat UI
 
----
 
 ## 📎 Future Improvements
 
@@ -131,13 +121,11 @@ Model is trained in `ml/train.py` and served via `/predict` API.
 * Admin alerts for 90%+ occupancy
 * Floor-plan based heatmap (SVG/Canvas)
 
----
 
 ## 📸 Screenshots
 
 > (Optional: Add screenshots of dashboard, booking UI, and prediction graph)
 
----
 
 ## 👨‍💻 Author
 
@@ -146,13 +134,10 @@ GitHub: [github.com/asarafcyber](https://github.com/asarafcyber)
 Email: [asarafcyber@gmail.com](mailto:asarafcyber@gmail.com)
 Loom Demo: *Paste your video link here after recording*
 
----
 
 ## 📝 License
 
 MIT License – Free to use, share, and improve.
-
----
 
 ### ✅ Final Step:
 
@@ -160,6 +145,7 @@ MIT License – Free to use, share, and improve.
 2. Create a new file: `README.md`
 3. Paste the content
 4. Save and commit:
+   
 
    ```bash
    git add README.md
@@ -167,10 +153,7 @@ MIT License – Free to use, share, and improve.
    git push
    ```
 
-
 ## Project info
-
-**URL**: https://lovable.dev/projects/aa06325d-49c8-4f29-8c6e-a6e4c6630192
 
 ## How can I edit this code?
 
@@ -178,7 +161,6 @@ There are several ways of editing your application.
 
 **Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/aa06325d-49c8-4f29-8c6e-a6e4c6630192) and start prompting.
 
 Changes made via Lovable will be committed automatically to this repo.
 
@@ -227,15 +209,4 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/aa06325d-49c8-4f29-8c6e-a6e4c6630192) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+=
