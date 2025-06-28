@@ -37,6 +37,7 @@ Admins can manage and monitor live bookings, analyze utilization patterns, and v
 
 ## 📁 Folder Structure
 
+
 bookmind-scheduling-ai-main/
 ├── client/ # React frontend
 │ ├── pages/ # Dashboard, Booking
@@ -49,9 +50,6 @@ bookmind-scheduling-ai-main/
 │ ├── ml/ # ML model training & serving
 │ └── utils/ # Firebase & helper services
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -71,10 +69,10 @@ export FIREBASE_CLIENT_ID="your_client_id"
 
 # Run the Flask app
 python app.py
+
 💻 Frontend Setup
-bash
-Copy
-Edit
+
+
 cd client
 npm install
 npm run dev
